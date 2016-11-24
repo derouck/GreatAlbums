@@ -1,9 +1,7 @@
-TabularTables = {};
+import Tabular from 'meteor/aldeed:tabular';
 
-Meteor.isClient && Template.registerHelper('TabularTables', TabularTables);
-
-TabularTables.AlbumsList = new Tabular.Table({
-  name: "Great Albums List",
+new Tabular.Table({
+  name: "AlbumsList",
   collection: Albums,
   columns: [
     {data: "artNr", title: "Art.Nr", class: "col-md-1"},
