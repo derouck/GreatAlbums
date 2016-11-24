@@ -4,11 +4,10 @@
 # 'meteor add' and 'meteor remove' will edit this file for you,
 # but you can also edit it by hand.
 
-meteor-platform
 aldeed:autoform
 aldeed:tabular
 useraccounts:bootstrap
-accounts-password
+accounts-password@1.3.3
 twbs:bootstrap
 aldeed:simple-schema
 msavin:mongol
@@ -18,8 +17,25 @@ aldeed:collection2
 sacha:spin
 iron:router
 momentjs:moment
-less
-coffeescript
+less@2.7.8
+coffeescript@1.11.1_4
 chrismbeckett:toastr
 alanning:roles
 ongoworks:security
+meteor-base
+mobile-experience
+mongo
+blaze-html-templates
+session
+jquery
+tracker
+logging
+reload
+random
+ejson
+spacebars
+check
+standard-minifier-css
+standard-minifier-js
+shell-server
+useraccounts:iron-routing
