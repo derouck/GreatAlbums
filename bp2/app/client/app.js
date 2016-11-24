@@ -31,5 +31,13 @@ toastr.options = {
 import { $ } from 'meteor/jquery';
 import dataTablesBootstrap from 'datatables.net-bs';
 import 'datatables.net-bs/css/dataTables.bootstrap.css';
-dataTablesBootstrap(window, $);
 
+// Buttons Core
+import dataTableButtons from 'datatables.net-buttons-bs';
+
+// Import whichever buttons you are using
+import columnVisibilityButton from 'datatables.net-buttons/js/buttons.colVis.js';
+
+dataTablesBootstrap(window, $);
+dataTableButtons(window, $);
+columnVisibilityButton(window, $);
